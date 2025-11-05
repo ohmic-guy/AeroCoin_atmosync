@@ -77,3 +77,11 @@ npx hardhat test solidity
 npx hardhat test mocha
 
 ```
+
+## 🚀 Deployment
+
+### 🧪 Local Deployment
+
+```bash
+npx hardhat ignition deploy ignition/modules/AeroChain.ts
+```
