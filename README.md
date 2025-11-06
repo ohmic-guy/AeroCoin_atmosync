@@ -1,13 +1,13 @@
-# 🚀 AeroChain: Blockchain + IoT Security Platform
+# 🚀 AtmoSync: Blockchain + IoT Security Platform
 
-AeroChain is a decentralized framework that leverages **Blockchain** and **IoT** for enhanced data integrity, transparency, and trust across connected devices.  
+AtmoSync is a decentralized framework that leverages **Blockchain** and **IoT** for enhanced data integrity, transparency, and trust across connected devices.  
 This project ensures **secure IoT data transmission** using **smart contracts** on the **Polygon Amoy Testnet**, enabling token-based authentication and tamper-proof logs.
 
 ---
 
 ## 🧩 Project Overview
 
-AeroChain integrates:
+AtmoSync integrates:
 - **IoT sensors** transmitting data securely to blockchain nodes.
 - **Smart Contracts** for managing authentication and access control.
 - **Blockchain Tokens** for transaction verification and incentive distribution.
@@ -29,28 +29,6 @@ This setup ensures a **trustless**, **transparent**, and **secure** IoT data eco
 | Network | Polygon Amoy Testnet |
 | IoT Device Layer | ESP32 / Raspberry Pi (HTTP or MQTT interface) |
 | Encryption | AES + SHA256 |
-
----
-
-## 📁 Folder Structure
-
-AeroChain/
-│
-├── contracts/
-│ └── AeroChain.sol # Main smart contract
-│
-├── scripts/
-│ ├── deploy.js # Deployment script
-│ ├── interact.js # Interaction (read/write)
-│
-├── test/
-│ └── AeroChain.test.js # Unit tests using Mocha
-│
-├── hardhat.config.js # Hardhat configuration
-├── package.json
-├── README.md
-└── .env # Private key and RPC URL (secured)
-
 
 ---
 
